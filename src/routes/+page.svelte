@@ -1,13 +1,19 @@
 <script>
-    let x = "ADA"
+    let name = "ADA"
 </script>
 
 <h1>TO-DO APP</h1>
-<p> My name is  {x} </p>
+
+<form name="new-item">
+    <div>
+        <label for="item"> Item: </label>
+        <input type='text' name="item"/>
+    </div>
+</form>
 
 <style>
     p {
-        color: red;
+        color: gray;
         font-size: 20px;
     }
 </style>
